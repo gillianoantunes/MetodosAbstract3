@@ -51,6 +51,7 @@ public class Program {
 	        valorTotalArrecadado += c.totalImposto();
 		}
 		System.out.println("\n Total Arrecadado: $" + String.format("%.2f", valorTotalArrecadado));
+	    sc.close();
 	}
 
 }
